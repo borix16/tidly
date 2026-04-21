@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TIDLY GYM – Najmodernejšie centrum pre silový trojboj, bojové športy a fitness v Banskej Štiavnici.">
+    <meta name="keywords" content="Gym Banská Štiavnica, Tidly Academy, Box Štiavnica, Silový trojboj Štiavnica, Fitness, InBody">
+    <title>TIDLY GYM | Moderný štandard sily</title>
+    
+    <!-- Google Fonts: Inter and Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVIGATION (ISLAND HEADER) ========== -->
+    <header class="main-header" id="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo.png" alt="Tidly Gym Logo" class="logo__img">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about" class="nav-link">O nás</a></li>
+                    <li><a href="#services" class="nav-link">Služby</a></li>
+                    <li><a href="#hall-of-fame" class="nav-link">Úspechy</a></li>
+                    <li><a href="#pricing" class="nav-link">Cenník</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Menu" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <!-- Fotka z posilňovne dodaná používateľom -->
+            <img src="assets/hero-bg.jpg" alt="Tidly Gym Interiér" class="hero__bg-img">
+            <div class="hero__overlay"></div>
+        </div>
+        <div class="hero__content container">
+            <div class="hero__badge">CENTRUM SILY A BOJOVÝCH ŠPORTOV</div>
+            <div class="hero__logo-wrapper">
+                <img src="assets/logo.png" alt="Tidly Gym" class="hero__logo-img">
+            </div>
+            <p class="hero__subtitle">
+                Najmodernejšie centrum pre silový trojboj, bojové športy a fitness s profesionálnym vybavením a komunitou v Banskej Štiavnici.
+            </p>
+            <a href="#pricing" class="btn btn--primary">
+                <span>CHCEM ZAČAŤ</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                </svg>
+            </a>
+        </div>
+        <div class="hero__scroll-hint">
+            <span>Preskúmať</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== O NÁS / FILOZOFIA ========== -->
+    <section class="section concept" id="about">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">01 / KONCEPT</span>
+                <h2 class="section__title">Viac než fitko. Komunita.</h2>
+            </div>
+            <div class="concept__grid">
+                <div class="concept__text">
+                    <p class="concept__description">
+                        Nehľadaj výhovorky, hľadaj Tidly Gym. Nie sme tu na to, aby sme ťa hladkali po chrbte. Sme moderný priestor pre tých, ktorí chcú makať na maximum – či už buduješ silu na drepoch, alebo driluješ obranu v ringu.
+                    </p>
+                    <div class="concept__image-wrapper">
+                        <img src="assets/team-photo.jpg" alt="Tidly Team" class="concept__image">
+                    </div>
+                </div>
+                <div class="concept__steps">
+                    <div class="step visible">
+                        <div class="step__number">01</div>
+                        <div class="step__content">
+                            <h3 class="step__title">Profesionálna zóna</h3>
+                            <p class="step__desc">Špičkové klietky a stroje bez kompromisov pre powerlifting aj klasický tréning.</p>
+                        </div>
+                    </div>
+                    <div class="step visible">
+                        <div class="step__number">02</div>
+                        <div class="step__content">
+                            <h3 class="step__title">Bojová zóna</h3>
+                            <p class="step__desc">Tidly Academy – Muay Thai a Box v čistej a dynamickej podobe s profi trénermi.</p>
+                        </div>
+                    </div>
+                    <div class="step visible">
+                        <div class="step__number">03</div>
+                        <div class="step__content">
+                            <h3 class="step__title">Presná diagnostika</h3>
+                            <p class="step__desc">Pravidelné meranie na InBody. Zisti svoje zloženie tela a sleduj progres v číslach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLUŽBY ========== -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">02 / SLUŽBY</span>
+                <h2 class="section__title">Nájdi si to svoje.</h2>
+            </div>
+            <div class="services__grid">
+                <div class="services__card">
+                    <div class="services__card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6.5 6.5h11"/><path d="M6.5 17.5h11"/><rect x="3" y="4" width="3" height="6" rx="1"/><rect x="18" y="4" width="3" height="6" rx="1"/><rect x="3" y="14" width="3" height="6" rx="1"/><rect x="18" y="14" width="3" height="6" rx="1"/><line x1="12" y1="4" x2="12" y2="20"/>
+                        </svg>
+                    </div>
+                    <h3 class="services__card-title">Silová Zóna</h3>
+                    <p class="services__card-text">Zameranie na Powerlifting a Bodybuilding. Vybavenie pre profíkov aj začiatočníkov. Príď a zisti, koľko naozaj zdvihneš.</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="services__card-title">Tidly Academy</h3>
+                    <p class="services__card-text">Skupinové a individuálne tréningy boxu a thajského boxu. Vybuduj obranu, získaj rešpekt a vypusti napätie.</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3 class="services__card-title">Osobné tréningy</h3>
+                    <p class="services__card-text">Na mieru šité plány, profi poradenstvo v strave a suplementácii. S našimi trénermi tu drinu nakoniec nevzdáš.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== KOMUNITA / HALL OF FAME ========== -->
+    <section class="section hall" id="hall-of-fame">
+        <div class="container container--center">
+            <div class="section__header text-center">
+                <span class="section__label">03 / ÚSPECHY</span>
+                <h2 class="section__title">Domov malých aj veľkých bojovníkov.</h2>
+                <p class="hall__subtitle">Ukáž, čo je v tebe. Sme hrdí na výkony našej komunity, ktoré definujú našu cestu.</p>
+            </div>
+            
+            <div class="hall__gallery">
+                <div class="hall__gallery-track">
+                    <!-- Prvá sada -->
+                    <img src="assets/success-1.jpg" alt="Úspech: Majstrovstvá sveta" class="hall__gallery-img">
+                    <img src="assets/success-2.jpg" alt="Úspech: Medajlisti" class="hall__gallery-img">
+                    <img src="assets/success-3.jpg" alt="Úspech: Tidly Academy Tím" class="hall__gallery-img">
+                    <img src="assets/success-4.jpg" alt="Úspech: Pohár pre tím" class="hall__gallery-img">
+                    
+                    <!-- Druhá sada pre nekonečný vizuálny loop -->
+                    <img src="assets/success-1.jpg" alt="Úspech: Majstrovstvá sveta" class="hall__gallery-img" aria-hidden="true">
+                    <img src="assets/success-2.jpg" alt="Úspech: Medajlisti" class="hall__gallery-img" aria-hidden="true">
+                    <img src="assets/success-3.jpg" alt="Úspech: Tidly Academy Tím" class="hall__gallery-img" aria-hidden="true">
+                    <img src="assets/success-4.jpg" alt="Úspech: Pohár pre tím" class="hall__gallery-img" aria-hidden="true">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CENNÍK ========== -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">04 / CENNÍK</span>
+                <h2 class="section__title">Bez viazanosti. Len výsledky.</h2>
+            </div>
+
+            <div class="pricing__grid">
+                <!-- Single Entry -->
+                <div class="pricing__card">
+                    <div class="pricing__card-header">
+                        <span class="pricing__card-label">Jednorazový vstup</span>
+                        <div class="pricing__card-price">
+                            <span class="price__amount">X,00</span>
+                            <span class="price__currency">€</span>
+                        </div>
+                        <span class="pricing__card-note">Okamžitý prístup do posilňovne</span>
+                    </div>
+                    <div class="pricing__card-body">
+                        <ul class="pricing__features">
+                            <li>Prístup ku všetkým strojom</li>
+                            <li>Šatne a zázemie</li>
+                            <li>Bez záväzkov</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Membership -->
+                <div class="pricing__card pricing__card--featured">
+                    <div class="pricing__card-badge">NAJLEPŠIA VOĽBA</div>
+                    <div class="pricing__card-header">
+                        <span class="pricing__card-label">Mesačná permanentka</span>
+                        <div class="pricing__card-price">
+                            <span class="price__amount">Y,00</span>
+                            <span class="price__currency">€</span>
+                        </div>
+                        <span class="pricing__card-note">Viac cvičíš, menej platíš</span>
+                    </div>
+                    <div class="pricing__card-body">
+                        <ul class="pricing__features">
+                            <li>Neobmedzený prístup (1 mesiac)</li>
+                            <li>Silová aj kardio zóna</li>
+                            <li>Vstup na akadémiu *za príplatok</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Personal Packs / Discount -->
+                <div class="pricing__card">
+                    <div class="pricing__card-header">
+                        <span class="pricing__card-label">Výhodné balíky</span>
+                    </div>
+                    <div class="pricing__card-body">
+                        <table class="pricing__table">
+                            <tbody>
+                                <tr>
+                                    <td>Študentská zľava <span class="pricing__tag">ISIC</span></td>
+                                    <td class="pricing__table-price">- XX %</td>
+                                </tr>
+                                <tr>
+                                    <td>Osobný tréner (1. hod)</td>
+                                    <td class="pricing__table-price">Zadarmo</td>
+                                </tr>
+                                <tr>
+                                    <td>Diagnostika InBody</td>
+                                    <td class="pricing__table-price">XX €</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== LOCATION & FOOTER ========== -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">05 / KONTAKT</span>
+                <h2 class="section__title">Kde nás nájdeš.</h2>
+            </div>
+            <div class="location__grid">
+                <div class="location__info">
+                    <div class="location__address">
+                        <div class="location__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>Adresa</h3>
+                            <p>Eleny Maróthy Šoltésovej 2856/8,<br> Banská Štiavnica</p>
+                        </div>
+                    </div>
+                    <div class="location__hours">
+                        <div class="location__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>Kontakt</h3>
+                            <p>Tel: +421 911 999 022</p>
+                            <p>Email: info@tidlygym.sk</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="location__map">
+                    <iframe src="https://maps.google.com/maps?q=Eleny%20Mar%C3%B3thy%20%C5%A0olt%C3%A9sovej%202856%2F8,%20Bansk%C3%A1%20%C5%A0tiavnica&t=m&z=15&output=embed&iwloc=near" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            
+            <div class="footer__inner">
+                <div class="footer__brand">
+                    <div class="logo">
+                        <img src="assets/logo.png" alt="Tidly Gym Logo" class="logo__img">
+                    </div>
+                    <p class="footer__tagline">Dostatočne silný začať? Čakáme ťa.</p>
+                </div>
+                <div class="footer__links">
+                    <a href="#about">O nás</a>
+                    <a href="#services">Služby</a>
+                    <a href="#pricing">Cenník</a>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/tidlygym/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 TIDLY GYM. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
